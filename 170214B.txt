@@ -1,0 +1,16 @@
+* run the main_170214B() function
+* all other functions are called inside main_170214B() function in required order
+
+reffered materials,
+* to study  hough transform - https://alyssaq.github.io/2014/understanding-hough-transform/
+* to study region growing - https://developpaper.com/simple-implementation-of-region-growing-in-python/
+
+extra,
+* regionGrow function is imcomplete
+* therefore part (h) of the paper is not completed
+
+* "dashcam_view_1" is selected for testing
+
+* median is used as the nonlinear filter because there are irregularities in the white lines on the road (salt and pepper noise), the median filter is applied to remove salt and pepper noise
+* gaussian filter is used as the linear filter because there weren little bit of noise pixels remained after applying median filter (gaussian noise)
+* threshold value 70 - since it detected edges optimally than other tested values
