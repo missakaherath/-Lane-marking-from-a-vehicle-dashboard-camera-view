@@ -1,4 +1,4 @@
-# Computer-Vision-Final-Assignment
+# Lane marking from a vehicle dashboard camera view
 
 1. Bilinear interpolation for the scaling
 2. Normalized the image
